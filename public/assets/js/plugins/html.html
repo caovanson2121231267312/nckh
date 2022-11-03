@@ -1,0 +1,17 @@
+@foreach($ts as $value)
+<div class='item-box-table Màn hình'>
+    <div class='box-title'><p class='box-title__title'>{{$value->name}}</p></div>
+    <div class='box-content'>
+        <table>
+            <tbody>
+                @foreach($value->tskt as $gt)
+                <tr>
+                    <th>{{$gt->name}}</th>
+                    <th>{{$gt->value}}</th>
+                </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
+</div>
+@endforeach

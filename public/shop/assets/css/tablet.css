@@ -1,0 +1,644 @@
+@media (min-width: 740px) and ( max-width: 1023px) {
+    .m-2{
+        width: 50%;
+    }
+    .wide{
+        width: 450px;
+        margin: 0 auto;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .tablet__featured__phone__tag__list{
+        overflow-x: auto;
+    }
+    .flash__sale__product__list__wrapper{
+         overflow-x: auto;
+    }
+    .featured__phone__product__item.view__all{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: none;
+        width: 500px;
+        margin: 0;
+        padding: 0 15px;
+    }
+    .featured__phone__product__item.view__all i{
+    font-size: 1.5rem;
+    color: #707070;
+    margin-bottom: 5px;
+    }
+    .featured__phone__product__item.view__all p{
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: #707070;
+    }
+    .featured__phone__product__item.view__all:hover{
+        transform: scale(1);
+        box-shadow: none;
+    }
+    .slider__top__wrapper__smartphone,
+    .slider__top__wrapper__smartphone__dot__list,
+    .tablet__header__logo,
+    .tablet__header__search,
+    .tablet__shopping__cart,
+    .slider__top__wrapper__tablet,
+    .slider__top__wrapper__tablet__dot__list,
+    .web__ads__box__tablet__img{
+    display: block;
+    }
+    .smartphone__scroll__to__top,
+    .smartphone__header__location,
+    .smartphone__slider,
+    .slider__top__wrapper,
+    .talk__with__supporter,
+    .zalo__support__box,
+    .zalo__support__head__box,
+    .scroll__to__top,
+    .BtnZaloChat,
+    .footer__information__background,
+    .footer,
+    .smartphone__header__logo,
+    .smartphone__header__search,
+    .smartphone__shopping__cart,
+    .header,
+    .slidebar,
+    .slide__ads__wrapper,
+    .slider__bottom,
+    .tablet__slidebar,
+    .tablet__disable{
+        display: none;
+    }
+    .header__background{
+        display: none;
+    }
+    .header__height{
+       height: 110px;
+    }
+    .tablet__modal{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 12;
+    }
+    .tablet__header__background{
+        width: 450px;
+        height: 170px;
+        z-index: 7;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        background: linear-gradient(
+            180deg,
+            #c40016,
+            #e8735b
+        ); 
+        transition: height ease 0.4s;
+    }
+    .tablet__header__top{
+        display: flex;
+        justify-content: space-between;
+        width: 430px;
+        margin-bottom: 10px;
+    }
+    .tablet__header__logo{
+        display: block;
+        width: 160px;
+        height: 34px;
+    }
+    .tablet__header__logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-right: 5px;
+    }
+    .tablet__header__logo__scroll{
+        display: flex;
+        justify-content: space-between;
+        width: 34px;
+        height: 34px;
+        border-radius: 10px;
+        border: 2px solid white;
+        display: none;
+    }
+    .tablet__header__logo__scroll img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-right: 5px;
+    }
+    .tablet__header__top__right{
+        display: flex;
+    }
+    .tablet__header__location{
+        width: 100px;
+        height: 34px;
+        background-color: rgba(255,255,255,0.2);
+        border-radius: 8px;
+        display: flex;
+        padding: 8px 5px;
+        align-items: center;
+        justify-content: space-between;
+        color: rgba(255,255, 255, 0.7);
+        margin-right: 10px;
+        position: relative;
+    }
+    .tablet__header__location__menu__list{
+        display: none;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.4);
+        position: fixed;
+        top: 49px;
+        right: 164px;
+        width: 160px;
+        z-index: 9000002;
+    }
+    .tablet__header__location__menu__list__modal{
+        display: none;
+        background-color: rgba(0,0,0,0.2);
+        box-shadow: 0 0 5px rgba(0,0,0,0.4);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 9000001;
+    }
+    .tablet__header__location__menu__item{
+        padding: 3px 20px;
+        min-height: 26px;
+    }
+    .tablet__header__location__menu__item:nth-child(1){
+        background-color: #FEE2E2;
+        border-radius: 15px 15px 0 0;
+    }
+    .tablet__header__location__menu__item:last-child{
+        border-radius: 0 0 15px 15px;
+    }
+    .tablet__header__location__menu__item:hover{
+        background-color: #FEE2E2;
+    }
+    .tablet__header__location__menu__item__link{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: #333333;
+    }
+    .tablet__header__location__menu__item__link i{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+
+
+    .tablet__header__location i{
+        font-size: 1rem;
+    }
+    .tablet__header__location__desc{
+        font-size: 0.7rem;
+    }
+    .tablet__header__location__desc p:first-child{
+        font-size: 0.6rem;
+    }
+    .tablet__header__location__desc p:last-child{
+        display: flex;
+        font-size: 0.7rem;
+    }
+    .tablet__shopping__cart{
+        width: 45px;
+        height: 34px;
+        background-color: rgba(255,255,255,0.2);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgba(255,255, 255, 0.7);
+    }
+    .tablet__header__bottom{
+        display: block;
+        min-width: 221px;
+        height: 34px;
+    }
+    .tablet__header__bottom i{
+        color: #444;
+        background-color: white;
+        padding: 9px 5px 9px 5px;
+        float: left;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        margin-right: -1px;
+    }
+    .tablet__header__bottom input{
+        height: 100%;
+        width: 403px;
+        border: none;
+        outline: none;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        color: #444;
+    }
+    .tablet__header__bottom__scroll{
+        display: none;
+        min-width: 221px;
+        height: 34px;
+    }
+    .tablet__header__bottom__scroll i{
+        color: #444;
+        background-color: white;
+        padding: 9px 5px 9px 5px;
+        float: left;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .tablet__header__bottom__scroll input{
+        height: 100%;
+        width: 200px;
+        border: none;
+        outline: none;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        color: #444;
+    }
+    .tablet__shopping__cart i{
+        font-size: 0.6rem;
+        margin-top: 6px;
+        margin-bottom: 5px;
+    }
+    .tablet__shopping__cart p{
+        font-size: 0.6rem;
+    }
+    .flash__sale__prev__btn,
+    .flash__sale__next__btn{
+        display: none;
+    }  
+    .tablet__slider{
+        width: 450px;
+        height: 225px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 10px 10px 0 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 8;
+    } 
+    .tablet__slider__wrapper{
+        display: flex;
+        transition: all ease 0.5s;
+    }
+    .tablet__slider__item{
+        width: 430px;
+        height: 186px;
+        flex: 1 0 100%;
+        margin-right: 10px;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .tablet__slider__item img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .tablet__slider__dot__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .tablet__slider__dot__item{
+        border-radius: 100px;
+        width: 8px;
+        height: 8px;
+        background-color: #707070;
+        margin: 0 5px;
+        transition: all ease 0.5s;
+    }
+    .web__ads__box{
+        height: 80px;
+        width: 450px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .web__ads__box__pc__img{
+        display: none;
+    }
+    .web__ads__box__tablet__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .flash__hot__sale{
+        display: none;
+    }
+    .flash__sale__box__tablet{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .coutdown{
+        display: flex;
+        padding: 20px 10px 0 10px;
+        justify-content: right;
+        align-items: center;
+    }
+    .coutdown__title{
+        font-size: 0.8rem;
+        color: #FFFF;
+        margin-right: 8px;
+    }
+    .time{
+        width: 20px;
+        height: 20px;
+        background-color: #FFF;  
+        border-radius: 5px;
+        font-size: 0.4rem;
+        color: #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 5px;
+        margin-right: 5px;
+    }
+    .coutdown span{
+        margin-right: 5px;
+        color: #FFF;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .flash__sale__product{
+        width: 210px;
+    }
+    .featured__phone{
+        margin-top: 15px;
+    }
+    .featured__phone__gutter{
+        display: none;
+    }
+    .tablet__featured__phone{
+        display: flex;
+        flex-direction: column;
+    }
+    .tablet__featured__phone__title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    .tablet__featured__phone__title a:first-child{
+        font-size: 1rem;
+        color: #444;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .tablet__featured__phone__title a:last-child{
+        font-size: 0.9rem;
+        color: #444;
+    }
+    .tablet__featured__phone__tag__list{
+        display: inline-flex;
+        left: 0;
+    }
+    .tablet__featured__phone__tag__item{
+        border: 1px solid rgba(0,0,0,0.05);
+        padding: 8px 5px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        background-color: #F3F4F6;
+    }
+    .tablet__featured__phone__tag__item a{
+        color: #444;
+        font-size: 0.7rem;
+    }
+    .tablet__featured__phone__tag__item:not(:last-child){
+        margin-right: 8px;
+    }
+    .featured__phone__product__list{
+        overflow-x: auto;
+    }.featured__phone__product__item{
+        width: 140px;
+        height: 309px;
+        transition: all ease 0.5s;
+        margin: 0 5px 10px 5px;
+        position: relative;
+        padding: 5px;
+        box-shadow: rgb(60 64 67 / 10%) 0px 1px 2px 0px, 
+        rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+        border-radius: 8px;
+    } 
+    .featured__phone__product__item:hover{
+        transform: scale(1.03);
+        box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    }
+    .flash__sale__product__promotion__info p{
+        font-size: 0.8rem;
+        color: #444;
+    }
+    .featured__phone__product__img__wrapper{
+        margin: 20px 0 15px 0;
+        width: 140px;
+        height: 100px;
+    }
+    .featured__phone__product__img__wrapper img{
+        width: 125px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .featured__phone__product__desc__title{
+        margin-bottom: 10px;
+    }
+    .featured__phone__product__desc__title a{
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        font-weight: 700;
+        color: #444;
+    }
+    .featured__phone__product__desc__price{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .featured__phone__product__desc__price__unit__old,
+    .featured__phone__product__desc__price__unit__new{
+        position: relative;
+    }
+    .featured__phone__product__price__unit__new::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #D70018;
+        position: absolute;
+        top: 85%;
+        left: 0%;
+    }
+    .featured__phone__product__desc__price__unit__old::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #444;
+        position: absolute;
+        top: 85%;
+        left: 0%;
+    }
+    .featured__phone__product__desc__price__old{
+        margin-right: 5px;
+        position: relative;
+    }
+    .featured__phone__product__desc__price__old p{
+        font-size: 0.6rem;
+        font-weight: 700;
+        color: #444;
+    }
+    .featured__phone__product__desc__price__old::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #444;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+    }
+    .featured__phone__product__desc__price__new{
+        margin-right: 10px;
+        position: relative;
+    }
+    .featured__phone__product__desc__price__new p{
+        font-size: 0.6rem;
+        font-weight: 700;
+        color: #D70018;
+    }
+    .featured__phone__product__promotion__info{
+        border: 1px solid #E5E7EB;
+        background-color: #F3F4F6;
+        padding: 3px;
+        border-radius: 3px;
+        margin-bottom: 5px;
+    }
+    .featured__phone__product__promotion__info p{
+        font-size: 0.7rem;
+        color: #444;
+    }
+    .featured__phone__product__desc__rare{
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .featured__phone__product__desc__rare__star i{
+        font-size: 0.5rem;
+        color: #dcc001;
+    }
+    .featured__phone__product__desc__rare__vote p{
+        font-size: 0.6rem;
+        margin-top: 3px;
+        margin-left: 4px;
+    }
+    .coming__soon p{
+        font-size: 0.7rem;
+    } 
+    .hot__sale{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: -10px;
+        top: -1px;
+    }
+    .hot__sale img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }   
+    .brand__wrapper{
+        display: none;
+    }
+    .tablet__brand__wrapper__column{
+            display: flex;
+    }
+    .tablet__brand__wrapper__column:first-child{
+        margin-top: 5px;
+    }
+    .tablet__brand__wrapper{
+        width: 220px;
+        height: 91px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+    .tablet__brand__wrapper img{
+        width: 100%;
+        height: 100%;
+    }
+    .tablet__brand__wrapper:first-child{
+        margin: 0 10px 10px 0;
+    }
+    .tablet__block__navbar__height{
+        height: 80px;
+    }
+    .tablet__block__bottom__navbar{
+        position: fixed;
+        bottom: 0;
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        height: 75px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding:15px 5px 15px 5px;
+        z-index: 9999999999999999;
+    }
+    .tablet__block__bottom__navbar__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .tablet__block__bottom__navbar__item a:last-child{
+        margin-top: 5px;
+        font-size: 0.8rem;
+    }
+    .tablet__block__bottom__navbar__item a{
+        color: #707070;
+    }
+    .tablet__block__bottom__navbar__item:hover {
+        color: red;
+    }
+    .tablet__scroll__to__top{
+        width: 41px;
+        height: 41px;
+        color: white;
+        background-color: #D70018;
+        position: fixed;
+        bottom: 75px;
+        right: 10px;
+        padding: 2px;
+        font-size: 0.6rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        opacity: 0.7;
+    }
+    .tablet__scroll__to__top i{
+        margin-bottom: 2px;
+        font-size: 0.8rem;
+    }
+}
